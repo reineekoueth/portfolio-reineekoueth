@@ -1,0 +1,206 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-border: hsl(var(--border));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-card: hsl(var(--card));
+
+  --animate-pulse-subtle: pulse-subtle 4s ease-in-out infinite;
+  --animate-fade-in: fade-in 0.7s ease-out forwards;
+  --animate-fade-in-delay-1: fade-in 0.7s ease-out 0.2s forwards;
+  --animate-fade-in-delay-2: fade-in 0.7s ease-out 0.4s forwards;
+  --animate-fade-in-delay-3: fade-in 0.7s ease-out 0.6s forwards;
+  --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s forwards;
+
+  @keyframes pulse-subtle {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.85; }
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+:root {
+  --background: 230 40% 8%;         /* Bleu nuit profond */
+  --foreground: 210 40% 98%;
+
+  --primary: 262 83% 58%;           /* Violet tech moderne */
+  --primary-foreground: 210 40% 98%;
+
+  --border: 240 30% 20%;
+  --card: 240 30% 12%;
+}
+
+@layer base {
+
+  html {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    @apply scroll-smooth;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    background:
+      radial-gradient(circle at 15% 20%, rgba(124, 58, 237, 0.25), transparent 40%),
+      radial-gradient(circle at 85% 80%, rgba(59, 130, 246, 0.25), transparent 40%),
+      radial-gradient(circle at 50% 50%, rgba(236, 72, 153, 0.1), transparent 60%),
+      linear-gradient(135deg, #050510 0%, #0f172a 40%, #111827 100%);
+
+    background-size: 200% 200%;
+    animation: gradientMove 20s ease infinite;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+/* Background animation */
+@keyframes gradientMove {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+/* Glow overlay subtil */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    rgba(124, 58, 237, 0.08),
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.veille-container {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.description {
+  max-width: 700px;
+  margin: 20px auto 60px;
+  color: #cbd5e1;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  padding: 25px;
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(18px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow:
+    0 0 0 1px rgba(124, 58, 237, 0.1),
+    0 10px 30px rgba(0, 0, 0, 0.4);
+
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow:
+    0 0 30px rgba(124, 58, 237, 0.5),
+    0 20px 50px rgba(0, 0, 0, 0.7);
+}
+
+.card h2 {
+  margin-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card p {
+  color: #e2e8f0;
+  margin-bottom: 35px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 120%;
+}
+
+
+.card a {
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 999px;
+  font-weight: 500;
+  text-decoration: none;
+
+  background: linear-gradient(
+    90deg,
+    hsl(var(--primary)),
+    hsl(220 90% 60%)
+  );
+
+  color: white;
+
+  transition: all 0.3s ease;
+}
+
+.card a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(124, 58, 237, 0.6);
+}
+
+@media (max-width: 768px) {
+  .veille-container {
+    padding: 60px 5%;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+
+  @media (width >= 640px) { max-width: 640px; }
+  @media (width >= 768px) { max-width: 768px; }
+  @media (width >= 1024px) { max-width: 1024px; }
+  @media (width >= 1280px) { max-width: 1280px; }
+  @media (width >= 1400px) { max-width: 1400px; }
+}
+
+@utility cosmic-button {
+  @apply px-6 py-2 rounded-full font-medium 
+         transition-all duration-300 hover:shadow-lg
+         hover:scale-105 active:scale-95;
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
