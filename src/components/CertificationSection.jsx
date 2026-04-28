@@ -48,7 +48,7 @@ const certifications = [
     id: 6,
     title: "AWS Academy Cloud Foundations",
     description: "EN COURS ",
-    image: "src/images/image.awscloud.png",
+    image: "/images/image.awscloud.png",
     category: "Attestation",
     date: "",
     url: "",
