@@ -34,7 +34,7 @@ const certifications = [
     image: "/images/image.pix.png",
     category: "Certification",
     date: "Fevrier 2026",
-    url: "doc/certification-pix-reine-ekoueth.pdf",
+    url: "/doc/certification-pix-reine-ekoueth.pdf",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const certifications = [
     image: "/images/image.secunum.png",
     category: "Attestation",
     date: "Fevrier 2026",
-    url: "doc/attestation-suivie-de-cours-secunum.pdf",
+    url: "/doc/attestation-suivie-de-cours-secunum.pdf",
   },
   { 
     id: 6,

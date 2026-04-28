@@ -12,7 +12,7 @@ const Stage = [
     image: "",
     category: "rapport",
     date: "12 Mai 2025 - 04 Juillet 2025",
-    demoUrl: "doc/Rapport de stage CGI.pdf",
+    demoUrl: "/doc/Rapport de stage CGI.pdf",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const Stage = [
     image: "",
     category:"attestation",
     date: "04 JUILLET 2025 ",
-    demoUrl: "doc/attestation-stage-CGI.pdf",
+    demoUrl: "/doc/attestation-stage-CGI.pdf",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const Stage = [
     image: "",
     category: "rapport",
     date: "01 Decembre 2025 - 23 janvier 2026 ",
-    demoUrl: "doc/Attestation-Stage-maseka.pdf",
+    demoUrl: "/doc/Attestation-Stage-maseka.pdf",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const Stage = [
     image: "",
     category: "attestation",
     date: "23 JANVIER 2026 ",
-    demoUrl: "doc/Attestation-Stage-maseka.pdf",
+    demoUrl: "/doc/Attestation-Stage-maseka.pdf",
   },
 
 ];
