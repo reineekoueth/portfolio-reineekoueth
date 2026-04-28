@@ -6,7 +6,7 @@ const certifications = [
   {
     id: 1,
     title: "PYTHON essential",
-    image: "src/images/image.python.png",
+    image: "/images/image.python.png",
     category: "Certification",
     date: "Avril 2025",
     url: "https://www.credly.com/badges/f0b01779-a784-47be-935e-2d725eeb35da/public_url", 
@@ -15,7 +15,7 @@ const certifications = [
   {
     id: 2,
     title: "Networking Basics",
-    image: "src/images/image.basic.png",
+    image: "/images/image.basic.png",
     category: "Certification",
     date: "Mars 2025",
     url: "https://www.credly.com/badges/cbd85e61-51bd-4409-bd74-54a62c4c665d/public_url",
@@ -23,7 +23,7 @@ const certifications = [
     {
     id: 3,
     title: " Google Analytics Certification",
-    image: "src/images/image.basic.png",
+    image: "/images/image.basic.png",
     category: "Certification",
     date: "Mars 2025",
     url: "https://skillshop.credential.net/11e688b7-13b1-4f09-a5fd-31054a1d3f1d#acc.9pUWwqJN   ",
@@ -31,7 +31,7 @@ const certifications = [
   {
     id: 4,
     title: "Certification PIX",
-    image: "src/images/image.pix.png",
+    image: "/images/image.pix.png",
     category: "Certification",
     date: "Fevrier 2026",
     url: "doc/certification-pix-reine-ekoueth.pdf",
@@ -39,7 +39,7 @@ const certifications = [
   {
     id: 5,
     title: "Secunum",
-    image: "src/images/image.secunum.png",
+    image: "/images/image.secunum.png",
     category: "Attestation",
     date: "Fevrier 2026",
     url: "doc/attestation-suivie-de-cours-secunum.pdf",
