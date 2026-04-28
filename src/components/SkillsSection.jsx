@@ -16,6 +16,7 @@ const skills = [
   { name: "Node.js", category: "backend" },
   { name: "MySql", category: "backend" },
   {name: "PHP-Laravel", category: "backend" },
+  {name: "Express", category: "backend" },
   /*name: "", category: "backend" */,
 
 
