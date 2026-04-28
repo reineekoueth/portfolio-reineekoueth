@@ -17,7 +17,7 @@ const Stage = [
   {
     id: 2,
     title: "Attestation Stage CGI ",
-    image: "",
+    image: "/images/image.attestationcgi.png",
     category:"attestation",
     date: "04 JUILLET 2025 ",
     demoUrl: "/doc/attestation-stage-CGI.pdf",
@@ -34,7 +34,7 @@ const Stage = [
   {
     id: 4,
     title: "Attestation Stage MASEKA ",
-    image: "",
+    image: "/images/image.attestationmaseka.png",
     category: "attestation",
     date: "23 JANVIER 2026 ",
     demoUrl: "/doc/Attestation-Stage-maseka.pdf",
