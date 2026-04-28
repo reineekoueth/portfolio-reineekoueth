@@ -11,7 +11,7 @@ const projects = [
     image: "",
     tags: [],
     category: "Academique",
-    demoUrl: "#",
+    demoUrl: "",
     githubUrl: "https://github.com/reineekoueth/amsclub-sport.git",
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     image: "",
     tags: ["HTML/CSS", "JavaScript"],
     category: "Academique",
-    demoUrl: "https://mwuna-vacances.netlify.app/",
+    demoUrl: "",
   },
   {
     id: 3,
