@@ -11,7 +11,7 @@ const projects = [
     image: "",
     tags: ["Express.js,react,..."],
     category: "Academique",
-    demoUrl: "https://amsclub-sport.vercel.app/#/",
+    demoUrl: "",
     githubUrl: "https://github.com/reineekoueth/amsclub-sport.git",
   },
   {

@@ -9,19 +9,19 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in"> Bonjour ! je suis </span>
+            <span className="opacity-0 animate-fade-in"> Hello ! je suis </span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
               Yvadore Reine 
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
-              Ekoueth
+              Ekoueth M 
             </span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-              Etudiante en BTS SIO Option SLAM au lycée Turgot  
+              Actuellement la recherche d'une alternance en developpement web 3 semaine en entreprise et 1 semaine à l'ecole.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
