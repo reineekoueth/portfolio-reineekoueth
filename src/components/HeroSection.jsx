@@ -11,12 +11,11 @@ export const HeroSection = () => {
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hello ! je suis </span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}
-              Yvadore Reine 
+              {" "} REINE Y
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
-              Ekoueth M 
+            EKOUETH 
             </span>
           </h1>
 

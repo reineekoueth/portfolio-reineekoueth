@@ -20,10 +20,10 @@ export const AnimatedBackground = () => {
         fpsLimit: 60,
         particles: {
           color: {
-            value: "#ec4899", // rose (tu peux changer)
+            value: "#f3f03e", 
           },
           links: {
-            color: "#ec4899",
+            color: "#ebcf31",
             distance: 150,
             enable: true,
             opacity: 0.3,

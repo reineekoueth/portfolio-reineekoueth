@@ -38,7 +38,7 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-primary">R.Y</span>{" "} EKOUETH M </span>
+            <span className="text-primary">RY</span>{" "} EKOUETH M </span>
         </a>
 
         {/* desktop nav */}
