@@ -54,6 +54,16 @@ const projects = [
     demoUrl: "https://reineekoueth.github.io/memo-game/",
     githubUrl: "https://github.com/reineekoueth/memo-game",
   },
+   {
+    id: 6,
+    title: "Panafrique",
+    description: "",
+    image:"/images/image.memogam.png",
+    tags: ["JavaScript", "HTML/CSS"],
+    category: "Personnel",
+    demoUrl: "",
+    githubUrl: "",
+  },
 ];
 
 export const ProjectsSection = () => {
