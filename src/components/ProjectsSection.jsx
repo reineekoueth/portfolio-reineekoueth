@@ -21,7 +21,7 @@ const projects = [
     image: "/images/image.mwuna.jpg",
     tags: ["HTML/CSS", "JavaScript", "PHP", "XAMPP"],
     category: "Academique",
-    demoUrl: "en local malheureusement ",
+    demoUrl: en local malheureusement,
     githubUrl:"https://github.com/reineekoueth/mwuna_vacances.git",
   },
   {
