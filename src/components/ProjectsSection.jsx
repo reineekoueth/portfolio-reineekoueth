@@ -11,7 +11,6 @@ const projects = [
     image: "/images/image.amsclub.png",
     tags: ["Express.js,react,..."],
     category: "Academique",
-    demoUrl: "",
     githubUrl: "https://github.com/reineekoueth/amsclub-sport.git",
   },
   {
@@ -21,7 +20,6 @@ const projects = [
     image: "/images/image.mwuna.jpg",
     tags: ["HTML/CSS", "JavaScript", "PHP", "XAMPP"],
     category: "Academique",
-    demoUrl: en local malheureusement,
     githubUrl:"https://github.com/reineekoueth/mwuna_vacances.git",
   },
   {
@@ -42,7 +40,6 @@ const projects = [
     tags: ["JavaScript", "HTML/CSS"],
     category: "Personnel",
     demoUrl: "https://africanstory.vercel.app/",
-    githubUrl: "",
   },
    {
     id: 5,
