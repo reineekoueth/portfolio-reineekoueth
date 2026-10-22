@@ -12,15 +12,19 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Actuellement  étudiante en 3 bachelor DevOps à l'ESGI  
+              Étudiante en Bachelor 3 Ingénierie DevOps à l'ESGI 
             </h3>
 
             <p className="text-muted-foreground">
-             je me spécialise dans le développement d’applications et de solutions web. J’ai choisi cette formation par passion pour l’informatique et la programmation. 
+            Titulaire d'un BTS SIO option SLAM, je me spécialise aujourd'hui
+              dans le DevOps et le cloud, tout en gardant une solide base de
+              développeuse Full Stack. J'ai choisi cette voie par passion pour
+              l'informatique, la programmation et l'automatisation.
             </p>
 
             <p className="text-muted-foreground">
-             Mon objectif est de travailler dans un milieu informatique et de continuer à approfondir mes compétences dans la conception d’applications performantes et innovantes.
+             Mon objectif est de travailler dans un milieu informatique et de continuer à approfondir 
+             mes compétences dans la conception d’applications performantes et innovantes.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -48,8 +52,9 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Développement</h4>
                   <p className="text-muted-foreground">
-                    Compétences en JavaScript , Html/Css , PhP , Python et React 
-                    pour créer des applications web et desktop interactives et performantes.
+                    JavaScript, TypeScript, HTML/CSS, PHP, Python, React,
+                    Angular, Express.js et MySQL pour créer des applications
+                    web interactives et performantes.
                   </p>
                 </div>
               </div>
@@ -62,8 +67,9 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Compétences Techniques</h4>
                   <p className="text-muted-foreground">
-                    Expérience avec les réseaux, 
-                    la virtualisation et les outils de sécurité tels que VirtualBox.
+                   Git et GitLab, pipelines CI/CD, scripts Bash, Docker et
+                    Azure. Expérience des réseaux, de la virtualisation
+                    (VirtualBox) et des outils de sécurité.
                   </p>
                 </div>
               </div>
@@ -76,9 +82,32 @@ export const AboutSection = () => {
 
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Experience</h4>
-                  <p className="text-muted-foreground">
-                   Stages pratiques en support informatique,
-                  </p>
+                  <ul className="text-muted-foreground space-y-3 mt-2">
+                    <li>
+                      <span className="font-medium text-foreground">
+                        Projets DevOps – Bachelor ESGI (depuis septembre 2026)
+                      </span>
+                      <br />
+                      GitLab avec branches et merge requests, pipeline CI/CD
+                      en 3 étapes (lint, build, deploy), script Bash de
+                      sauvegarde de base de données, et résolution d'un échec
+                      de pipeline lié aux fins de ligne CRLF/LF.
+                    </li>
+                    <li>
+                      <span className="font-medium text-foreground">
+                        Stage Cloud Architect – CGI
+                      </span>
+                      <br />
+                      Découverte du cloud et du DevOps avec Docker et Azure.
+                    </li>
+                    <li>
+                      <span className="font-medium text-foreground">
+                        Stages en support informatique
+                      </span>
+                      <br />
+                      Assistance aux utilisateurs et dépannage.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
