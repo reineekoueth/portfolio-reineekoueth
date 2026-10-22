@@ -19,9 +19,9 @@ const projects = [
     title: "Mwuna Vacances",
     description:"Mwuna Vacances est un site destiné aux adolescents pour présenter des activités et séjours adaptés.",
     image: "/images/image.mwuna.jpg",
-    tags: ["HTML/CSS", "JavaScript"],
+    tags: ["HTML/CSS", "JavaScript", "PHP", "XAMPP"],
     category: "Academique",
-    demoUrl: "",
+    demoUrl: "en local malheureusement ",
     githubUrl:"https://github.com/reineekoueth/mwuna_vacances.git",
   },
   {
