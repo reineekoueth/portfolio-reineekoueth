@@ -6,7 +6,6 @@ import { AboutSection } from "../components/AboutSection";
 import { SkillsSection } from "../components/SkillsSection";
 import { CertificationsSection } from "../components/CertificationSection";
 import { Footer } from "../components/Footer";
-import { StageSection } from "../components/StageSection";
 import { ContactSection } from "../components/ContactSection";
 import Veille from "../components/Veille";
 
