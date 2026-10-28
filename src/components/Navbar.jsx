@@ -7,7 +7,6 @@ const navItems = [
   { name: "À propos", href: "#about" },
   { name: "Mes Compétences", href: "#skills" },
   { name: "Mes Projets", href: "#projects" },
-  { name: "Mes Rapports", href: "#stage" },
   { name: "Mes attestations et certifications", href: "#certifications" },
   { name: "Ma veille info", href: "#veille" },
   { name: "Contact", href: "#contact" },
