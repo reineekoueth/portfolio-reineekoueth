@@ -37,11 +37,11 @@ export const StageSection = () => {
     <section id="stage" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          RAPPORT de stage <span className="text-primary">et Attestation</span>
+           <span className="text-primary"></span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Retrouvez mes attestations et rapports de stage.
+         
         </p>
 
         {/* Boutons catégories */}
@@ -107,9 +107,9 @@ export const StageSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2 bg-pink-500 hover:bg-pink-600 text-white"
             target="_blank"
-            href="https://github.com/reineekoueth"
+            href=""
           >
-            Voir Mon Github <ArrowRight size={16} />
+             <ArrowRight size={16} />
           </a>
         </div>
       </div>
