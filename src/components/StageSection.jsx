@@ -11,7 +11,7 @@ const Stage = [
     description: "Mission principale : Mise en place et configuration d’environnements de conteneurisation et de déploiement applicatif",
     image: "",
     category: "rapport",
-    date: "12 Mai 2025 - 04 Juillet 2025",
+    date: " Mai 2026 -  Juillet 2026",
     demoUrl: "/doc/Rapport de stage CGI.pdf",
   },
   {
@@ -19,7 +19,6 @@ const Stage = [
     title: "Attestation Stage CGI ",
     image: "/images/image.attestationcgi.png",
     category:"attestation",
-    date: "04 JUILLET 2025 ",
     demoUrl: "/doc/attestation-stage-CGI.pdf",
   },
   {
@@ -28,7 +27,7 @@ const Stage = [
     description: "Mission Principale : Création et mise en ligne d’un site internet pour l’association Maseka afin d’améliorer sa visibilité en ligne et d’optimiser sa communication auprès de son public et de ses partenaires.",
     image: "",
     category: "rapport",
-    date: "01 Decembre 2025 - 23 janvier 2026 ",
+    date: "mai 2025 - juillet 2025 ",
     demoUrl: "/doc/Attestation-Stage-maseka.pdf",
   },
   {
@@ -36,7 +35,6 @@ const Stage = [
     title: "Attestation Stage MASEKA ",
     image: "/images/image.attestationmaseka.png",
     category: "attestation",
-    date: "23 JANVIER 2026 ",
     demoUrl: "/doc/Attestation-Stage-maseka.pdf",
   },
 
