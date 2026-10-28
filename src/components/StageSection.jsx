@@ -2,7 +2,7 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 import { useState } from "react";
 
 // Deux catégories seulement
-const stageCategories = ["rapport", "attestation"];
+const stageCategories = ["rapport"];
 
 const Stage = [
      {
@@ -12,14 +12,7 @@ const Stage = [
     image: "",
     category: "rapport",
     date: " Mai 2026 -  Juillet 2026",
-    demoUrl: "/doc/Rapport de stage CGI.pdf",
-  },
-  {
-    id: 2,
-    title: "Attestation Stage CGI ",
-    image: "/images/image.attestationcgi.png",
-    category:"attestation",
-    demoUrl: "/doc/attestation-stage-CGI.pdf",
+    demoUrl: "",
   },
   {
     id: 3,
@@ -28,14 +21,7 @@ const Stage = [
     image: "",
     category: "rapport",
     date: "mai 2025 - juillet 2025 ",
-    demoUrl: "/doc/Attestation-Stage-maseka.pdf",
-  },
-  {
-    id: 4,
-    title: "Attestation Stage MASEKA ",
-    image: "/images/image.attestationmaseka.png",
-    category: "attestation",
-    demoUrl: "/doc/Attestation-Stage-maseka.pdf",
+    demoUrl: "",
   },
 
 ];
