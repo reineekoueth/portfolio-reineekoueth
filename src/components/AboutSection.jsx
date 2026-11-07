@@ -23,8 +23,7 @@ export const AboutSection = () => {
             </p>
 
             <p className="text-muted-foreground">
-             Mon objectif est de travailler dans un milieu informatique et de continuer à approfondir 
-             mes compétences dans la conception d’applications performantes et innovantes.
+             à remplacer 
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -75,16 +74,6 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Experience</h4>
                   <ul className="text-muted-foreground space-y-3 mt-2">
-                    <li>
-                      <span className="font-medium text-foreground">
-                        Projets DevOps – Bachelor ESGI (depuis septembre 2026)
-                      </span>
-                      <br />
-                      GitLab avec branches et merge requests, pipeline CI/CD
-                      en 3 étapes (lint, build, deploy), script Bash de
-                      sauvegarde de base de données, et résolution d'un échec
-                      de pipeline lié aux fins de ligne CRLF/LF.
-                    </li>
                     <li>
                       <span className="font-medium text-foreground">
                         Stage Cloud Architect – CGI
