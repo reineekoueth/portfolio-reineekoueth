@@ -20,8 +20,8 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-              Actuellement à la recherche d'une alternance en DevOps | Cloud . Mon rythme est : 3 semaine en entreprise et 1 semaine à l'ecole.
-          </p>
+              Actuellement à la recherche d'une alternance en DevOps | Cloud .   </p>
+          <p > Mon rythme est : 3 semaine en entreprise et 1 semaine à l'ecole. </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
